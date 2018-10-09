@@ -1,1 +1,170 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Clock</title>
+  <style>
+    table {font-size: 60px; font-weight: bold;}
+    td {width:60px; text-align: center;}
+  
+  
+  </style>
+</head>
+<body>
+  <script src="app.js"></script>
+  <table>
+    <!-- 1 -->
+    <tr class="clock">
+      <td class="_es_ist">E</td>
+      <td class="_es_ist">S</td>
+      <td>$</td> <!-- $ -->
+      <td class="_es_ist">I</td>
+      <td class="_es_ist">S</td>
+      <td class="_es_ist">T</td>
+      <td>$</td> <!-- $ -->
+      <td class="_fünf_1">F</td>
+      <td class="_fünf_1">Ü</td>
+      <td class="_fünf_1">N</td>
+      <td class="_fünf_1">F</td>
+    </tr>
+    <!-- 2 -->
+    <tr class="clock">
+      <td class="_zehn_1">Z</td>
+      <td class="_zehn_1">E</td>
+      <td class="_zehn_1">H</td>
+      <td class="_zehn_1">N</td>
+      <td class="_zwanzig">Z</td>
+      <td class="_zwanzig">W</td>
+      <td class="_zwanzig">A</td>
+      <td class="_zwanzig">N</td>
+      <td class="_zwanzig">Z</td>
+      <td class="_zwanzig">I</td>
+      <td class="_zwanzig">G</td>
+    </tr>
+    <!-- 3 -->
+    <tr class="clock">
+      <td class="_dreiviertel">D</td>
+      <td class="_dreiviertel">R</td>
+      <td class="_dreiviertel">E</td>
+      <td class="_dreiviertel">I</td>
+      <!--
+      <td class="_viertel, _dreiviertel">V</td>
+      <td class="_viertel, _dreiviertel">I</td>
+      <td class="_viertel, _dreiviertel">E</td>
+      <td class="_viertel, _dreiviertel">R</td>
+      <td class="_viertel, _dreiviertel">T</td>
+      <td class="_viertel, _dreiviertel">E</td>
+      <td class="_viertel, _dreiviertel">L</td>
+      -->
+      <td class="_viertel">V</td>
+      <td class="_viertel">I</td>
+      <td class="_viertel">E</td>
+      <td class="_viertel">R</td>
+      <td class="_viertel">T</td>
+      <td class="_viertel">E</td>
+      <td class="_viertel">L</td>
+    </tr>
+    <!-- 4 -->
+    <tr class="clock">
+      <td class="_vor">V</td>
+      <td class="_vor">O</td>
+      <td class="_vor">R</td>
+      <td>$</td> <!-- $ -->
+      <td>$</td> <!-- $ -->
+      <td>$</td> <!-- $ -->
+      <td>$</td> <!-- $ -->
+      <td class="_nach">N</td>
+      <td class="_nach">A</td>
+      <td class="_nach">C</td>
+      <td class="_nach">H</td>
+    </tr>
+    <!-- 5 -->
+    <tr class="clock">
+      <td class="_halb">H</td>
+      <td class="_halb">A</td>
+      <td class="_halb">L</td>
+      <td class="_halb">B</td>
+      <td>$</td> <!-- $ -->
+      <td class="_elf">E</td>
+      <td class="_elf">L</td>
+      <td class="_fünf_2_elf">F</td>
+      <td class="_fünf_2">Ü</td>
+      <td class="_fünf_2">N</td>
+      <td class="_fünf_2">F</td>
+    </tr>
+        <!-- 6 -->
+    <tr class="clock">
+      <td class="_ein">E</td>
+      <td class="_ein">I</td>
+      <td class="_ein">N</td>
+      <td class="_eins">S</td>
+      <td>$</td><!-- $ -->
+      <td>$</td><!-- $ -->
+      <td>$</td><!-- $ -->
+      <td class="_zwei">Z</td>
+      <td class="_zwei">W</td>
+      <td class="_zwei">E</td>
+      <td class="_zwei">I</td>
+    </tr>
+    <!-- 7 -->
+    <tr class="clock">
+      <td class="_drei">D</td>
+      <td class="_drei">R</td>
+      <td class="_drei">E</td>
+      <td class="_drei">I</td>
+      <td>$</td><!-- $ -->
+      <td>$</td><!-- $ -->
+      <td>$</td><!-- $ -->
+      <td class="_vier">V</td>
+      <td class="_vier">I</td>
+      <td class="_vier">E</td>
+      <td class="_vier">R</td>
+    </tr>
+    <!-- 8 -->
+    <tr class="clock">
+      <td class="_sechs">S</td>
+      <td class="_sechs">E</td>
+      <td class="_sechs">C</td>
+      <td class="_sechs">H</td>
+      <td class="_sechs">S</td>
+      <td>$</td><!-- $ -->
+      <td>$</td><!-- $ -->
+      <td class="_acht">A</td>
+      <td class="_acht">C</td>
+      <td class="_acht">H</td>
+      <td class="_acht">T</td>
+    </tr>
+    <!-- 9 -->
+    <tr class="clock">
+      <td class="_sieben">S</td>
+      <td class="_sieben">I</td>
+      <td class="_sieben">E</td>
+      <td class="_sieben">B</td>
+      <td class="_sieben">E</td>
+      <td class="_sieben">N</td>
+      <td class="_zwölf">Z</td>
+      <td class="_zwölf">W</td>
+      <td class="_zwölf">Ö</td>
+      <td class="_zwölf">L</td>
+      <td class="_zwölf">F</td>
+     </tr>
+     <!-- 10 -->
+   <tr class="clock">
+      <td class="_zehn_2">Z</td>
+      <td class="_zehn_2">E</td>
+      <td class="_zehn_2">H</td>
+      <td class="_zehn_2_neun">N</td>
+      <td class="_neun">E</td>
+      <td class="_neun">U</td>
+      <td class="_neun">N</td>
+      <td>$</td><!-- $ -->
+      <td class="_uhr">U</td>
+      <td class="_uhr">H</td>
+      <td class="_uhr">R</td>
+    </tr>
+  </table>  
+</body>
+</html>
